@@ -1,0 +1,250 @@
+body {
+  font-family: 'Raleway',sans-serif;
+  font-family: 'Roboto',sans-serif;
+  color: #434455;
+  }
+
+:root {
+  --bg-color: #2E2F42;
+  --bg-second-color: #F4F4FD;
+
+  --logo-color: #4D5AE5;
+
+  --color-header-link: #2E2F42;
+  --color-contacts: #434455;
+  --selection-header: #404BBF;
+
+  --hero-title-color: #FFFFFF;
+  --bttn-color: #FFFFFF;
+  --bttn-bg-color: #4D5AE5;
+  --selection-bttn-hero: #404bbf;
+
+  --text-main: #2E2F42;
+  --bg-color-photo: #FFFFFF;
+  --photo-border:#E7E9FC;
+  --nav-bttn-color: #4D5AE5;
+  --nav-bttn-bg: #F4F4FD;
+  --nav-bttn-border: #E7E9FC;
+  --selection-bttn-nav-text: #FFFFFF;
+  --selection-bttn-nav: #404BBF;
+
+  --cards-text-color: #2e2f42; 
+  --cards-subtext-color: #434455;
+
+
+
+  --footer-text: #E7E9FC;
+}
+
+.link {  
+  text-decoration: none; 
+}
+
+/*Header CSS*/
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.logo-studio {
+  color: #2E2F42;
+}
+
+.logo-studio-footer {
+  color: #F4F4FD;
+}
+
+.list {
+  list-style: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-header-link);
+}
+
+.header-link:hover, 
+.header-link:focus {
+  color:var(--selection-header);
+}
+
+.address {
+  font-style: normal;
+
+}
+.contacts {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-contacts);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--selection-header);
+}
+
+/*Section Hero*/
+
+.hero {
+  background-color: var(--bg-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--hero-title-color);
+  text-align: center;
+  white-space:pre-line;
+}
+
+.button-hero {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--bttn-color);
+  background-color: var(--bttn-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--selection-bttn-hero);
+}
+
+/*Section Information*/ 
+
+.info-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+}
+
+.info-text {
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+}
+
+/*Section Company Work*/
+
+.title-company-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--text-main);
+}
+
+/*Section Team*/
+
+.team {
+  background-color: var(--bg-second-color);
+}
+.item-team {
+  background-color: var(--bg-color-photo);
+}
+
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--text-main);
+}
+
+.team-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+}
+
+.team-text { 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*Footer*/
+
+.footer-website {
+  background-color: var(--bg-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--footer-text);
+  white-space: pre-line;
+}
+
+/*Portfolio Navigation*/
+
+.button-nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--nav-bttn-color);
+  background-color: var(--nav-bttn-bg);
+  border: 1px solid var(--nav-bttn-border);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-nav:hover,
+.button-nav:focus{
+  color: var(--selection-bttn-nav-text);
+  background-color: var(--selection-bttn-nav);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 2px 1px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/*Portfolio Cards*/
+
+.row-cards {
+  background-color: var(--bg-color-photo);
+  border: 1px solid var(--photo-border);
+}
+
+.cards-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--cards-text-color);
+}
+
+.cards-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cards-subtext-color);
+}
