@@ -367,15 +367,15 @@ img {
 }
 
 .row-cards {
-  background-color: var(--bg-color-photo);
-  border: 1px solid var(--photo-border);
   width: calc((100% - 48px) / 3);
 }
 
 .cards-container {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 16px;
+  background-color: var(--bg-color-photo);
+  border: 1px solid var(--photo-border);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .cards-caption {
