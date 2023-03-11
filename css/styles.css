@@ -45,8 +45,6 @@ img {
   --cards-text-color: #2e2f42; 
   --cards-subtext-color: #434455;
 
-
-
   --footer-text: #E7E9FC;
 }
 
@@ -316,10 +314,10 @@ img {
   margin-top: 16px;
   color: var(--footer-text);
   white-space: pre-line;
-  max-width: 264px;
+  max-width: 264px; 
 }
 
-/*Portfolio Navigation*/
+/*Portfolio Nav*/
 
 .portfolio {
   padding-top: 96px;
